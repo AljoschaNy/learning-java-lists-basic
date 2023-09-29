@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.school.School;
 import org.example.school.Student;
 
 import java.util.ArrayList;

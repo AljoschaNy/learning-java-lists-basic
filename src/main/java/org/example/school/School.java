@@ -5,12 +5,14 @@ import java.util.List;
 import java.util.Objects;
 
 public class School {
-    private List<Student> studentsOfSchool = new ArrayList<>();
+    List<Student> studentsOfSchool = new ArrayList<>();
 
     public School() {
     }
 
-
+    public static void addStudent(School schoolTest, Student student) {
+        schoolTest.studentsOfSchool.add(student);
+    }
 
     public List<Student> getStudentsOfSchool() {
         return studentsOfSchool;
