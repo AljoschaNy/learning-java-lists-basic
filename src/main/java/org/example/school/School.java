@@ -15,7 +15,7 @@ public class School {
     }
 
     public void printTotalStudents() {
-        System.out.println(this.studentsOfSchool.size());
+        System.out.println(this.studentsOfSchool);
     }
 
     public List<Student> getStudentsOfSchool() {
