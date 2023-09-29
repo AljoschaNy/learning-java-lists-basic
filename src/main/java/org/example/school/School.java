@@ -5,13 +5,13 @@ import java.util.List;
 import java.util.Objects;
 
 public class School {
-    List<Student> studentsOfSchool = new ArrayList<>();
+    private List<Student> studentsOfSchool = new ArrayList<>();
 
     public School() {
     }
 
     public static void addStudent(School schoolTest, Student student) {
-        schoolTest.studentsOfSchool.add(student);
+        schoolTest.getStudentsOfSchool().add(student);
     }
 
     public List<Student> getStudentsOfSchool() {
